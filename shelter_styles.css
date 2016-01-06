@@ -3,8 +3,21 @@
   height: 250px;
   padding: 15px;
   margin: 5px;
-  border: 2px solid #6666ff;
+  border: 2px solid #6E5A5B;
+  background-color: #C2A883;
+  border-radius: 8px;
   float: left;
+  min-height: 250px;
+  min-width: 300px;
+}
+
+.column h2:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  margin-left: 2em;
 }
 
 .animal {
@@ -13,6 +26,30 @@
   margin: 10px;
 }
 
+.header-wrap {
+  background-color: #C2A883;
+  height: 150px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url("https://wallpaperscraft.com/image/paw_print_background_surface_pattern_69479_2048x1152.jpg");
+  opacity: .8;
+  color: #443536;
+}
+
+.nav-item {
+  cursor: pointer;
+  float: right;
+  margin: 1em 2em;
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
